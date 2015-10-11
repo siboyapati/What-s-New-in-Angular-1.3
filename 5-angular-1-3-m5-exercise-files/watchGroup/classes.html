@@ -1,0 +1,14 @@
+<h1>Classes</h1>
+
+<table class="table">
+  <tr><th>Class ID</th><th>Class Name</th><th>Description</th></tr>
+  <tr ng-repeat="class in classes">
+    <td>{{class.classId}}</td>
+    <td>{{class.className}}</td>
+    <td>{{class.description}}</td>
+  </tr>
+</table>
+<hr>
+Idx: <input type="text" ng-model="currentClassIndex">
+Id: <input type="text" ng-model="currentClassId">
+
